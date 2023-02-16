@@ -1,6 +1,16 @@
-   This is my gulp build. 
+Charity website project structure using gulp.
+Used:
+1. Technologies:
+- HTML;
+- CSS flexbox;
+- SASS/SCSS;
+- Java Script;
+- Gulp
+- burger-menu, carousel, animation, accordion;
+- responsive design;
+- semantic tags
 
-Plugins:
+2. Plugins:
 - "del": "6.0.0",
 - "gulp": "4.0.2",
 - "gulp-autoprefixer": "8.0.0",
