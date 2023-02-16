@@ -1,6 +1,6 @@
    This is my gulp build. 
 
-Inside:
+Plugins:
 - "del": "6.0.0",
 - "gulp": "4.0.2",
 - "gulp-autoprefixer": "8.0.0",
@@ -16,5 +16,3 @@ Inside:
 - "gulp-uglify": "3.0.2",
 - "panini": "1.7.2",
 - "sass": "1.58.1"
-
-   To use this - just copy the files to your project folder on your computer and run in the terminal: npm i.
