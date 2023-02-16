@@ -1,4 +1,3 @@
-
 const acc = document.querySelectorAll(".accordion");
 acc.forEach(e => {
     e.addEventListener("click", function() {

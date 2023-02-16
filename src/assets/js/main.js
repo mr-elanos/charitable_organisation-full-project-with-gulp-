@@ -1,3 +1,3 @@
-//= components/script.js
+//= components/burger.js
 //= components/tab.js
 //= components/sliders.js

@@ -52,4 +52,3 @@ new Swiper('.news-swiper__slider', {
     centeredSlides: true,
     grabCursor: true,
 });
-
