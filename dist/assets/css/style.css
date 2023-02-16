@@ -365,6 +365,12 @@ body {
     }
 }
 
+@media (max-height: 350px) {
+    .header__burger-menu li {
+        padding-bottom: 15px;
+    }
+}
+
 .main-img {
     width: 100%;
 }
@@ -452,7 +458,11 @@ body {
 
 @media (max-width: 767px) {
     .support {
-        padding: 5rem 1.875rem 6.3125rem;
+        padding: 3.125rem 1.875rem 3.75rem;
+    }
+
+    .support__label {
+        margin-bottom: 2.5rem;
     }
 }
 
@@ -753,6 +763,12 @@ body {
     background-color: #A8C8D0;
 }
 
+@media (max-width: 767px) {
+    .video {
+        padding: 3.125rem 1.25rem 3.75rem;
+    }
+}
+
 .video__label {
     margin-bottom: 5rem;
 }
@@ -888,9 +904,9 @@ body {
     justify-content: space-between;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .main-content {
-        padding: 3.75rem 0px 1.1875rem 1.875rem;
+        padding: 3.75rem 1.875rem 1.1875rem 1.875rem;
         flex-direction: column;
         text-align: justify;
     }
@@ -930,6 +946,12 @@ body {
     background-color: #A8C8D0;
     padding: 5.25rem 2.375rem 6.6875rem;
     position: relative;
+}
+
+@media (max-width: 767px) {
+    .youth-swiper {
+        padding: 3.125rem 2.375rem 6.6875rem;
+    }
 }
 
 .youth-swiper .btns {
@@ -984,7 +1006,7 @@ body {
 
 @media (max-width: 360px) {
     .news-swiper {
-        padding: 3rem 0rem 3.75rem;
+        padding: 3rem 0.3125rem 3.75rem;
     }
 }
 
@@ -1033,6 +1055,12 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 767px) {
+    .news-swiper p {
+        width: 100%;
+    }
+}
+
 .news-swiper__slide {
     overflow: hidden;
     width: 320px;
@@ -1061,7 +1089,7 @@ body {
 /*end news.html*/
 /*camps.html*/
 .camps {
-    padding: 5.1875rem 0px 3.875rem;
+    padding: 5.1875rem 1.875rem 3.875rem;
 }
 
 @media (max-width: 1023px) {
@@ -1072,6 +1100,12 @@ body {
 
 .camps__label {
     margin-bottom: 3.125rem;
+}
+
+@media (max-width: 767px) {
+    .camps__label {
+        margin-bottom: 0.3125rem;
+    }
 }
 
 .camps__item {
@@ -1138,6 +1172,7 @@ body {
 @media (max-width: 1023px) {
     .camps__item-img {
         flex: 0 1 auto;
+        margin-left: 20px;
     }
 }
 /*end camps.html*/
@@ -1148,6 +1183,12 @@ body {
 
 .members__label {
     margin-bottom: 5rem;
+}
+
+@media (max-width: 990px) {
+    .members__label {
+        margin-bottom: 50px;
+    }
 }
 
 .members__content {
@@ -1236,6 +1277,12 @@ body {
     margin-left: 1.9893899204vw;
     width: 25.7294429708vw;
     min-width: 200px;
+}
+
+@media (max-width: 768px) {
+    .donate__content-btn {
+        margin: 20px auto;
+    }
 }
 
 .donate__content-btn a {

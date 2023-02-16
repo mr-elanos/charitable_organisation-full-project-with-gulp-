@@ -270,6 +270,11 @@ body{
         }
     }
 }
+@media (max-height:350px){
+    .header__burger-menu li{
+        padding-bottom: 15px;
+    }
+}
 
 .main-img{
     width: 100%;
@@ -345,7 +350,10 @@ body{
 }
 @media (max-width:767px){
     .support{
-        padding: -rem(80) -rem(30) -rem(101)
+        padding: -rem(50) -rem(30) -rem(60);
+        &__label {
+            margin-bottom: -rem(40);
+        }
     }
 }
 
@@ -605,6 +613,9 @@ body{
 .video {
     padding: -rem(95) -vw(215) -rem(171);
     background-color: #A8C8D0;
+    @media (max-width: 767px){
+        padding: -rem(50) -rem(20) -rem(60);
+    }
     &__label {
         margin-bottom: -rem(80);
     }
@@ -713,8 +724,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    @media (max-width: 1024px){
-        padding: -rem(60) 0px -rem(19) -rem(30);
+    @media (max-width: 1023px){
+        padding: -rem(60) -rem(30) -rem(19) -rem(30);
         flex-direction: column;
         text-align: justify;
     }
@@ -749,6 +760,9 @@ body{
     background-color: #A8C8D0;
     padding: -rem(84) -rem(38) -rem(107);
     position: relative;
+    @media (max-width: 767px){
+        padding: -rem(50) -rem(38) -rem(107);
+    }
     & .btns{
         position: absolute;
         top: 22%;
@@ -793,7 +807,7 @@ body{
         padding: -rem(48) -rem(15) -rem(60);
     }
     @media (max-width:360px){
-        padding: -rem(48) -rem(0) -rem(60);
+        padding: -rem(48) -rem(5) -rem(60);
     }
     & .btns-wrapper{
         position: relative;
@@ -830,6 +844,9 @@ body{
         text-align: center;
         width: -vw(853);
         margin: 0 auto;
+        @media (max-width: 767px){
+            width: 100%;
+        }
     }
     &__slide {
         overflow: hidden;
@@ -859,12 +876,15 @@ body{
 
 /*camps.html*/
 .camps {
-    padding: -rem(83) 0px -rem(62);
+    padding: -rem(83) -rem(30) -rem(62);
     @media (max-width: 1023px){
         padding: -rem(50) 0px -rem(10);
     }
     &__label {
         margin-bottom: -rem(50);
+        @media (max-width: 767px){
+            margin-bottom: -rem(5);
+        }
     }
     &__item {
         display: flex;
@@ -891,7 +911,6 @@ body{
             }
         }
     }
-    
     & .item-reverse {
         flex-direction: row-reverse;
         background-color: #A8C8D0;
@@ -910,6 +929,7 @@ body{
         overflow: hidden;
         @media (max-width: 1023px){
             flex: 0 1 auto;
+            margin-left: 20px;
         }
         & img{
             @extend %img100x100;
@@ -923,6 +943,9 @@ body{
     padding: -rem(22) -vw(73) -rem(41) 0px;
     &__label {
         margin-bottom: -rem(80);
+        @media (max-width: 990px){
+            margin-bottom: 50px;
+        }
     }
     &__content {
         display: flex;
@@ -999,6 +1022,9 @@ body{
         margin-left: -vw(30);
         width: -vw(388);
         min-width: 200px;
+        @media (max-width: 768px){
+            margin: 20px auto;
+        }
         & a{
             display: block;
             width: 100%;
